@@ -92,7 +92,7 @@ def preorder_reconstruct(clade, c, bipartition_count, existing_bipartitions, l):
     count = bipartition_count[bipartition]
 
     #check if the bipartition is a majority
-    if count >= l:
+    if count > l or (count == l == 1):
         if bipartition in existing_bipartitions:
             #if the count of c is less than that of the parent in the Ml, switch the current clade's parent to be c
 

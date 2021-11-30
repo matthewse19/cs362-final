@@ -48,7 +48,7 @@ def get_parsed_arguments():
     parser.add_argument('-d', '--drawTree', action='store_true',
         help='Draw the output tree to the terminal with ascii characters')
     parser.add_argument('-l', '--threshold', type=_restricted_float, default = 0.5,
-        help='When Ml algorithm is selected, this determines the ratio of input trees which must have the cluster, defaults to 0.5')
+        help='When Ml algorithm is selected, this determines the minimum ratio of input trees which must have the cluster, defaults to 0.5')
 
     parsed_arguments = parser.parse_args()
     return parsed_arguments

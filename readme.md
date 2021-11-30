@@ -29,7 +29,7 @@ positional arguments:
 optional arguments:
   -h, --help : show this help message and exit
   -d, --drawTree : Draw the output tree to the terminal with ascii characters
-  -l THRESHOLD, --threshold THRESHOLD : When Ml algorithm is selected, this determines the ratio of input trees which must have the cluster, defaults to 0.5
+  -l THRESHOLD, --threshold THRESHOLD : When Ml algorithm is selected, this determines the minimum ratio of input trees which must have the cluster, defaults to 0.5
 
 ### Examples
 python consensus_cli.py  adams input_example.tree outputFile.tree
