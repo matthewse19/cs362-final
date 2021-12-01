@@ -3,7 +3,8 @@ Matthew Smith-Erb
 
 11/29/2021
 
-This file contains the implementation for the Ml consensus tree algorithm
+This file contains the implementation for the Ml consensus tree algorithm.
+Note: bipartition is used here to refer to a specific cluster seperated from the rest of the taxa
 '''
 
 from Bio import Phylo
