@@ -21,15 +21,15 @@ usage: python consensus_cli.py [-h] [-d] [-l THRESHOLD] {Ml,adams} inputFile out
 
 Run Ml or Adams consensus tree algorithms
 
-positional arguments:
-  {Ml,adams} : Consensus algorithm to run to create the output tree
-  inputFile : Name of file which includes the trees in Newick format
-  outputFile : Name of the output file
+positional arguments:  
+  {Ml,adams} : Consensus algorithm to run to create the output tree  
+  inputFile : Name of file which includes the trees in Newick format  
+  outputFile : Name of the output file  
 
-optional arguments:
-  -h, --help : show this help message and exit
-  -d, --drawTree : Draw the output tree to the terminal with ascii characters
-  -l THRESHOLD, --threshold THRESHOLD : When Ml algorithm is selected, this determines the minimum ratio of input trees which must have the cluster, defaults to 0.5
+optional arguments:  
+  -h, --help : show this help message and exit  
+  -d, --drawTree : Draw the output tree to the terminal with ascii characters  
+  -l THRESHOLD, --threshold THRESHOLD : When Ml algorithm is selected, this determines the minimum ratio of input trees which must have the cluster, defaults to 0.5  
 
 ### Examples
 python consensus_cli.py  adams input_example.tree outputFile.tree
