@@ -1,8 +1,6 @@
 # CS362: Computational Biology, Final Project
-Matthew Smith-Erb
-11/29/2021
 
-This final project implements two phylogenetic consensus tree algorithms: Adams and Ml/majority/strict.
+This final project implements two phylogenetic consensus tree algorithms: [Adams](https://www.sciencedirect.com/science/article/pii/S0890540117301402) and [Ml/majority/strict](https://evolution.genetics.washington.edu/phylip/doc/consense.html).
 
 ## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the following package [Biopython](https://biopython.org/)
